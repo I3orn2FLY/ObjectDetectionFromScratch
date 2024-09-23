@@ -23,8 +23,8 @@ Where train2017 and val2017 are folders with images
 
 ### Run train
 ```commandline
-python3 src/train_kenny_net_cnn
-python3 src/train_kenny_net_detr
+python3 src/train_simplified_efficient_det
+python3 src/train_simplified_detr
 ```
 
 Here, KennyNetCNN with EfficientNet backbone and 
