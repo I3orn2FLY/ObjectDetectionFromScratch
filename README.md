@@ -20,21 +20,11 @@ and unzip it to data folder under repository so basically you should have follow
 Where train2017 and val2017 are folders with images
 
 
+The model is similar to efficientdet, having efficientnet backbone and feature pyramid network
 
 ### Run train
 ```commandline
-python3 src/train_simplified_efficient_det
-python3 src/train_simplified_detr
+python3 src/train_efficient_det
 ```
 
-Here, KennyNetCNN with EfficientNet backbone and 
-feature pyramid network with outputs similar to yolo (with anchors and such)
 
-KennyNetDetR is EfficientNet backbone and self-made swin transformer from scratch
-
-
-### Run eval
-```commandline
-python3 src/eval_kenny_net_cnn
-python3 src/eval_kenny_net_detr
-```
